@@ -63,11 +63,11 @@ public class Sort {
                 swap(array, i, minIndex);
         }
     }
-
     /**
      * 插入排序
      * @param array 待排序数组
      */
+    /*
     public void insertSort(int[] array) {
         int length = array.length;
         if (length == 0)
@@ -86,5 +86,5 @@ public class Sort {
         //sort.bubbleSort(array);
         sort.selectSort(array);
         sort.printArray(array);
-    }
+    }*/
 }
